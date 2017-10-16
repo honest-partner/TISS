@@ -5,11 +5,10 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="../CSS/bootstrap-theme.css" rel="stylesheet" />
-    <link href="../CSS/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="../CSS/bootstrap.css" rel="stylesheet" />
     <link href="../CSS/bootstrap.min.css" rel="stylesheet" />
-    
+    <link href="../CSS/bootstrap-rtl.min.css" rel="stylesheet" />
+    <link href="../CSS/uikit.min.css" rel="stylesheet" />
+    <link href="../CSS/uikit-rtl.min.css" rel="stylesheet" />
     <title>ثبت نام</title>
 </head>
 <body>
@@ -34,7 +33,7 @@
                             <asp:Label ID="Label14" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="شماره دانشجویی"></asp:Label>
                             <asp:TextBox ID="TextBox5" runat="server" CssClass="form-control" placeHolder="شماره دانشجویی" Font-Names="IRANSans"></asp:TextBox>
                         </div>
-
+                        
                         <div class="col-md-1"></div>
                         <div class="row">
                             <br />

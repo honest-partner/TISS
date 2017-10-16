@@ -66,20 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\bootstrap-theme.css" />
-    <Content Include="CSS\bootstrap-theme.min.css" />
-    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap-rtl.min.css" />
     <Content Include="CSS\bootstrap.min.css" />
-    <Content Include="CSS\uikit-rtl.css" />
     <Content Include="CSS\uikit-rtl.min.css" />
-    <Content Include="CSS\uikit.css" />
     <Content Include="CSS\uikit.min.css" />
     <Content Include="packages.config" />
     <Content Include="MasterPages\Main.Master" />
-    <Content Include="CSS\bootstrap-theme.css.map" />
-    <Content Include="CSS\bootstrap-theme.min.css.map" />
-    <Content Include="CSS\bootstrap.css.map" />
-    <Content Include="CSS\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
