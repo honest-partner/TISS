@@ -66,6 +66,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\bootstrap-rtl.min.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\uikit-rtl.min.css" />
+    <Content Include="CSS\uikit.min.css" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
@@ -79,6 +83,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pages\Home.aspx" />
+    <Content Include="Pages\TestSignUp.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -98,10 +103,16 @@
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\TestSignUp.aspx.cs">
+      <DependentUpon>TestSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\TestSignUp.aspx.designer.cs">
+      <DependentUpon>TestSignUp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
