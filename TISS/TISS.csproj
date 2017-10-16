@@ -66,10 +66,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="CSS\bootstrap-theme.css" />
+    <Content Include="CSS\bootstrap-theme.min.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\uikit-rtl.css" />
+    <Content Include="CSS\uikit-rtl.min.css" />
+    <Content Include="CSS\uikit.css" />
+    <Content Include="CSS\uikit.min.css" />
+    <Content Include="packages.config" />
     <Content Include="MasterPages\Main.Master" />
+    <Content Include="CSS\bootstrap-theme.css.map" />
+    <Content Include="CSS\bootstrap-theme.min.css.map" />
+    <Content Include="CSS\bootstrap.css.map" />
+    <Content Include="CSS\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,10 +88,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pages\Home.aspx" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Pages\Index.aspx" />
+    <Content Include="Pages\TestSignUp.aspx" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MasterPages\Main.Master.cs">
@@ -91,17 +100,23 @@
     <Compile Include="MasterPages\Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Home.aspx.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Pages\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Home.aspx.designer.cs">
-      <DependentUpon>Home.aspx</DependentUpon>
+    <Compile Include="Pages\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TestSignUp.aspx.cs">
+      <DependentUpon>TestSignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\TestSignUp.aspx.designer.cs">
+      <DependentUpon>TestSignUp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
