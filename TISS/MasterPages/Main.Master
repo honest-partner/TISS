@@ -4,17 +4,57 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>سامانه خدمات تعاملی آموزش</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Note: Try to remove the following lines to see the effect of CSS positioning */
+        .affix {
+            top: 0;
+            width: 100%;
+        }
+
+            .affix + .container-fluid {
+                padding-top: 70px;
+            }
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
+
+    <div class="container-fluid" style="background-color: #4CAF50; color: #fff; height: 5%; direction: rtl; font-family: IRANSans">
+        <h1>سامانه خدمات تعاملی آموزش</h1>
+        <h3>TISS</h3>
     </div>
-    </form>
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="direction: rtl; font-family: IRANSans">
+        <ul class="nav navbar-nav" style="direction: rtl;">
+            <li class="active"><a href="#">سامانه خدمات تعاملی آموزش</a></li>
+            <li><a href="#">خانه</a></li>
+            <li><a href="#">پیام ها</a></li>
+            <li><a href="#">اطلاعیه ها</a></li>
+            <li><a href="#">درخواست ها</a></li>
+        </ul>
+        <form runat="server">
+           <%-- style="padding: 1px; "--%>
+            <div class="btn-group" data-offset-top="197" >
+                <asp:Button ID="btnExit" runat="server" Text="خروج" CssClass="btn btn-danger" />
+                <asp:Button ID="btnProfile" runat="server" Text="پروفایل" CssClass="btn btn-info" />
+            </div>
+        </form>
+    </nav>
+
+    <div>
+
+        <asp:ContentPlaceHolder ID="cplmain" runat="server"></asp:ContentPlaceHolder>
+    </div>
+
+    <div class="container-fluid" style="background-color: #388E3C; color: #fff; height: 40px; direction: rtl; font-family: IRANSans">
+        <h6>تمامی حقوق مادی و معنوی محفوظ است</h6>
+    </div>
 </body>
 </html>
