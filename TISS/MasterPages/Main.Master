@@ -7,7 +7,8 @@
     <title>سامانه خدمات تعاملی آموزش</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="../CSS/bootstrap-rtl.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
@@ -26,35 +27,62 @@
 </head>
 <body>
 
-    <div class="container-fluid" style="background-color: #4CAF50; color: #fff; height: 5%; direction: rtl; font-family: IRANSans">
-        <h1>سامانه خدمات تعاملی آموزش</h1>
-        <h3>TISS</h3>
-    </div>
+    <div class="container-fluid" style="background-color: #4CAF50; color: #fff; height: 5%; direction: rtl; font-family: IRANSans;">
 
-    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197" style="direction: rtl; font-family: IRANSans">
-        <ul class="nav navbar-nav" style="direction: rtl;">
-            <li class="active"><a href="#">سامانه خدمات تعاملی آموزش</a></li>
-            <li><a href="#">خانه</a></li>
-            <li><a href="#">پیام ها</a></li>
-            <li><a href="#">اطلاعیه ها</a></li>
-            <li><a href="#">درخواست ها</a></li>
-        </ul>
-        <form runat="server">
-           <%-- style="padding: 1px; "--%>
-            <div class="btn-group" data-offset-top="197" >
-                <asp:Button ID="btnExit" runat="server" Text="خروج" CssClass="btn btn-danger" />
-                <asp:Button ID="btnProfile" runat="server" Text="پروفایل" CssClass="btn btn-info" />
+
+        <div class="row">
+
+            <div class="col-md-10" dir="rtl">
+                <h1>سامانه تعاملی خدمات آموزش</h1>
+                <h3>TISS</h3>
+                <h5>دانشگاه شهید چمران اهواز</h5>
             </div>
-        </form>
-    </nav>
+            <div class="col-md-2 " dir="ltr">
+                <asp:Image ID="Image1" runat="server" CssClass="img-responsive" ImageUrl="~/Images/puzzle.png" />
+            </div>
+        </div>
+    </div>
+    <form runat="server">
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="100" style="direction: rtl; font-family: IRANSans;">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                    <asp:HyperLink ID="lnkTISS" runat="server" NavigateUrl="~/Pages/Home.aspx">سامانه خدمات تعاملی آموزش</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkHome" runat="server" NavigateUrl="~/Pages/Home.aspx">خانه</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkMessages" runat="server" NavigateUrl="">پیام ها</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkNotifications" runat="server" NavigateUrl="">اطلاعیه ها</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkRequests" runat="server" NavigateUrl="">درخواست ها</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkStudents" runat="server" NavigateUrl="">دانشجویان</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkTeachers" runat="server" NavigateUrl="">استادان</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkUsers" runat="server" NavigateUrl="">کاربران</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkManagement" runat="server" NavigateUrl="">مدیریت برنامه</asp:HyperLink></li>
+                <li></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-left">
+                <li>
+                    <asp:HyperLink ID="lnkProfile" runat="server" NavigateUrl="">اطلاعات کاربری</asp:HyperLink></li>
+                <li>
+                    <asp:HyperLink ID="lnkExit" runat="server" NavigateUrl="">خروج</asp:HyperLink></li>
+            </ul>
 
+        </nav>
+    </form>
     <div>
 
-        <asp:ContentPlaceHolder ID="cplmain" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="cplmain" runat="server">
+          
+        </asp:ContentPlaceHolder>
     </div>
 
-    <div class="container-fluid" style="background-color: #388E3C; color: #fff; height: 40px; direction: rtl; font-family: IRANSans">
-        <h6>تمامی حقوق مادی و معنوی محفوظ است</h6>
+    <div class="col-md-12" style="background-color: #388E3C; color: #fff; direction: rtl; font-family: IRANSans">
+        <div style="text-align: center; align-items: center;">تمامی حقوق مادی و معنوی محفوظ است</div>
     </div>
 </body>
 </html>

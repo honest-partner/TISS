@@ -70,6 +70,7 @@
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\uikit-rtl.min.css" />
     <Content Include="CSS\uikit.min.css" />
+    <Content Include="Images\puzzle.png" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
