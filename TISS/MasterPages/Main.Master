@@ -18,6 +18,7 @@
             width: 100%;
         }
 
+
             .affix + .container-fluid {
                 padding-top: 70px;
             }
@@ -73,13 +74,14 @@
             </ul>
 
         </nav>
-    </form>
-    <div>
 
-        <asp:ContentPlaceHolder ID="cplmain" runat="server">
-          
-        </asp:ContentPlaceHolder>
-    </div>
+        <div>
+
+            <asp:ContentPlaceHolder ID="cplmain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
 
     <div class="col-md-12" style="background-color: #388E3C; color: #fff; direction: rtl; font-family: IRANSans">
         <div style="text-align: center; align-items: center;">تمامی حقوق مادی و معنوی محفوظ است</div>
