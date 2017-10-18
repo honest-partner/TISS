@@ -33,18 +33,18 @@
 
         <div class="row">
 
-            <div class="col-md-10" dir="rtl">
+            <div class="col-md-11" dir="rtl">
                 <h1>سامانه تعاملی خدمات آموزش</h1>
                 <h3>TISS</h3>
                 <h5>دانشگاه شهید چمران اهواز</h5>
             </div>
-            <div class="col-md-2 " dir="ltr">
+            <div class="col-md-1 " dir="ltr" style="padding:10px;">
                 <asp:Image ID="Image1" runat="server" CssClass="img-responsive" ImageUrl="~/Images/puzzle.png" />
             </div>
         </div>
     </div>
     <form runat="server">
-        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="100" style="direction: rtl; font-family: IRANSans;">
+        <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="200" style="direction: rtl; font-family: IRANSans;">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active">
                     <asp:HyperLink ID="lnkTISS" runat="server" NavigateUrl="~/Pages/Home.aspx">سامانه خدمات تعاملی آموزش</asp:HyperLink></li>
@@ -86,5 +86,6 @@
     <div class="col-md-12" style="background-color: #388E3C; color: #fff; direction: rtl; font-family: IRANSans">
         <div style="text-align: center; align-items: center;">تمامی حقوق مادی و معنوی محفوظ است</div>
     </div>
+
 </body>
 </html>
