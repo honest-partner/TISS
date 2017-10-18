@@ -10,7 +10,7 @@
 namespace TISS.Pages {
     
     
-    public partial class Login {
+    public partial class SignUp {
         
         /// <summary>
         /// lblPanelHeader control.
@@ -22,39 +22,30 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblPanelHeader;
         
         /// <summary>
-        /// txtUsername control.
+        /// lblUserType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUsername;
+        protected global::System.Web.UI.WebControls.Label lblUserType;
         
         /// <summary>
-        /// txtPassword control.
+        /// ddlUserType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.DropDownList ddlUserType;
         
         /// <summary>
-        /// hplForgetPassword control.
+        /// pnlSignUp control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hplForgetPassword;
-        
-        /// <summary>
-        /// btnLogin control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLogin;
+        protected global::System.Web.UI.WebControls.Panel pnlSignUp;
     }
 }
