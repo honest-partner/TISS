@@ -8,6 +8,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="cplmain" runat="server">
     <div class="row" style="font-family: 'IranSans'">
         <div class="col-sm-3"></div>
+
         <div class="col-sm-6">
             <div class="panel panel-success" style="margin-bottom: 3%" dir="rtl">
                 <div class="panel panel-heading">

@@ -7,7 +7,7 @@
 <div class="row" style="font-family: 'IranSans'">
     <div class="col-sm-12">
         <div class="row" style="margin-top: 5%">
-            <div class="col-sm-12" dir="rtl">
+            <div class="col-sm-12">
 
                 <div class="alert alert-info" style="margin-top: 1%">
                     <strong>اطلاعات اولیه</strong> (الزامی)
@@ -93,7 +93,6 @@
                 </div>
                 <div class="col-sm-1">
                     <br />
-                    <br />
                 </div>
 
                 <asp:Label ID="lblUsername" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="نام کاربری" Style="margin-top: 5%"></asp:Label>
@@ -118,9 +117,9 @@
                 <asp:Label ID="lblFatherName" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="نام پدر" Style="margin-top: 5%"></asp:Label>
                 <asp:TextBox ID="txtFatherName" runat="server" CssClass="form-control" placeHolder="نام پدر" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%"></asp:TextBox>
 
-                <asp:Label ID="lblBirthDate" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="تاریخ تولد" Style="margin-top: 5%; margin-bottom:2%"></asp:Label>
+                <asp:Label ID="lblBirthDate" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="تاریخ تولد" Style="margin-top: 5%; margin-bottom: 2%"></asp:Label>
                 <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <asp:DropDownList ID="ddlBirthDay" runat="server" CssClass="form-control" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%">
                             <asp:ListItem>روز</asp:ListItem>
                             <asp:ListItem>1</asp:ListItem>
@@ -157,7 +156,7 @@
                         </asp:DropDownList>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <asp:DropDownList ID="ddlBirthMonth" runat="server" CssClass="form-control" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%">
                             <asp:ListItem>ماه</asp:ListItem>
                             <asp:ListItem>فروردین</asp:ListItem>
@@ -175,7 +174,7 @@
                         </asp:DropDownList>
                     </div>
 
-                    <div class="col-sm-4">
+                    <div class="col-md-4">
                         <asp:DropDownList ID="ddlBirthYear" runat="server" CssClass="form-control" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%">
                             <asp:ListItem>سال</asp:ListItem>
                             <asp:ListItem>1385</asp:ListItem>
@@ -265,8 +264,33 @@
                             <asp:ListItem>1301</asp:ListItem>
                             <asp:ListItem>1300</asp:ListItem>
                         </asp:DropDownList>
-                    </div>
-                </div>
+                    </div><br />
+                </div><br />
+
+                <asp:Label ID="lblBirthPlace" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="محل تولد" Style="margin-top: 6%"></asp:Label>
+                <asp:TextBox ID="ltxtBirthPlace" runat="server" CssClass="form-control" placeHolder="محل تولد" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%"></asp:TextBox>
+
+                <asp:Label ID="lblProvince" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="استان" Style="margin-top: 5%"></asp:Label>
+                <asp:TextBox ID="txtProvince" runat="server" CssClass="form-control" placeHolder="استان" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%"></asp:TextBox>
+
+                <asp:Label ID="lblCity" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="شهر" Style="margin-top: 5%"></asp:Label>
+                <asp:TextBox ID="txtCity" runat="server" CssClass="form-control" placeHolder="شهر" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%"></asp:TextBox>
+
+                <asp:Label ID="lblSupervisor" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="استادراهنما" Style="margin-top: 5%"></asp:Label>
+                <asp:DropDownList ID="ddlSupervisor" runat="server" CssClass="form-control" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%">
+                    <asp:ListItem>محمود فرخیان</asp:ListItem>
+                    <asp:ListItem>آرشین رضازاده</asp:ListItem>
+                    <asp:ListItem>مرجان نادران</asp:ListItem>
+                    <asp:ListItem>الهام نیکوکار</asp:ListItem>
+                </asp:DropDownList>
+
+                <asp:Label ID="lblDutyStatus" runat="server" CssClass="text-primary" Font-Names="IRANSans" Text="وضعیت نظام وظیفه" Style="margin-top: 5%"></asp:Label>
+                <asp:DropDownList ID="ddlDutyStatus" runat="server" CssClass="form-control" Font-Names="IRANSans" Style="margin-top: 1%; margin-bottom: 5%">
+                    <asp:ListItem>معافیت تحصیلی</asp:ListItem>
+                    <asp:ListItem>معافیت کفالت</asp:ListItem>
+                    <asp:ListItem>معافیت پزشکی</asp:ListItem>
+                    <asp:ListItem>دانشجوی دختر</asp:ListItem>
+                </asp:DropDownList>
 
                 <asp:Button ID="btnRegister" runat="server" CssClass="btn btn-success form-control" Text="ثبت نام" Font-Names="IRANSans" Style="margin-top: 1%" />
             </div>
