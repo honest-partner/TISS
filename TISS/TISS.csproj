@@ -116,7 +116,6 @@
     </Compile>
     <Compile Include="Pages\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
