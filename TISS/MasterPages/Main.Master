@@ -75,8 +75,7 @@
 
         </nav>
 
-        <div>
-
+        <div class="container-fluid">
             <asp:ContentPlaceHolder ID="cplmain" runat="server">
             </asp:ContentPlaceHolder>
         </div>
