@@ -85,7 +85,9 @@
   <ItemGroup>
     <Content Include="Pages\Home.aspx" />
     <Content Include="Pages\Login.aspx" />
-    <Content Include="Pages\Profile.aspx" />
+    <Content Include="Pages\OperatorProfile.aspx" />
+    <Content Include="Pages\TeacherProfile.aspx" />
+    <Content Include="Pages\StudentProfile.aspx" />
     <Content Include="Pages\SignUp.aspx" />
     <Content Include="Pages\TestSignUp.aspx" />
     <Content Include="UserControls\ucStudentSignUp.ascx" />
@@ -115,12 +117,26 @@
     <Compile Include="Pages\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Profile.aspx.cs">
-      <DependentUpon>Profile.aspx</DependentUpon>
+    <Compile Include="Pages\OperatorProfile.aspx.cs">
+      <DependentUpon>OperatorProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Profile.aspx.designer.cs">
-      <DependentUpon>Profile.aspx</DependentUpon>
+    <Compile Include="Pages\OperatorProfile.aspx.designer.cs">
+      <DependentUpon>OperatorProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TeacherProfile.aspx.cs">
+      <DependentUpon>TeacherProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\TeacherProfile.aspx.designer.cs">
+      <DependentUpon>TeacherProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\StudentProfile.aspx.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\StudentProfile.aspx.designer.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>

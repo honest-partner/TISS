@@ -17,7 +17,20 @@ namespace TISS.Pages
 
         protected void ddlUserType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            pnlSignUp.Controls.Add(Page.LoadControl("~/UserControls/ucStudentSignUp.ascx"));
+            //Control ucSignUp = Page.LoadControl("~/UserControls/ucStudentSignUp.ascx");
+            //pnlSignUp.Controls.Add(ucSignUp);
+            if (ddlUserType.SelectedValue == "دانشجو")
+            {
+                pnlStudentSignUp.Visible = true;
+                pnlTeacherSignUp.Visible = false;
+            }
+            else
+            {
+                pnlStudentSignUp.Visible = false;
+                pnlTeacherSignUp.Visible = true;
+            }
+            
+            
         }
     }
 }
