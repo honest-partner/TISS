@@ -86,6 +86,7 @@
     <Content Include="Pages\Home.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\OperatorProfile.aspx" />
+    <Content Include="Pages\Options.aspx" />
     <Content Include="Pages\TeacherProfile.aspx" />
     <Content Include="Pages\StudentProfile.aspx" />
     <Content Include="Pages\SignUp.aspx" />
@@ -123,6 +124,13 @@
     </Compile>
     <Compile Include="Pages\OperatorProfile.aspx.designer.cs">
       <DependentUpon>OperatorProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Options.aspx.cs">
+      <DependentUpon>Options.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Options.aspx.designer.cs">
+      <DependentUpon>Options.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\TeacherProfile.aspx.cs">
       <DependentUpon>TeacherProfile.aspx</DependentUpon>

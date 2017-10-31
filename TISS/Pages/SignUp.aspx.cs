@@ -21,16 +21,24 @@ namespace TISS.Pages
             //pnlSignUp.Controls.Add(ucSignUp);
             if (ddlUserType.SelectedValue == "دانشجو")
             {
-                pnlStudentSignUp.Visible = true;
                 pnlTeacherSignUp.Visible = false;
+                pnlOperatorSignUp.Visible = false;
+                pnlStudentSignUp.Visible = true;
             }
-            else
+            else if (ddlUserType.SelectedValue == "استاد")
             {
                 pnlStudentSignUp.Visible = false;
+                pnlOperatorSignUp.Visible = false;
                 pnlTeacherSignUp.Visible = true;
             }
-            
-            
+            else if (ddlUserType.SelectedValue == "مسئول آموزش")
+            {
+                pnlStudentSignUp.Visible = false;
+                pnlTeacherSignUp.Visible = false;
+                pnlOperatorSignUp.Visible = true;
+            }
+
+
         }
     }
 }

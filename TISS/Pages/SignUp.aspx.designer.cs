@@ -58,6 +58,15 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblStudentFirstname;
         
         /// <summary>
+        /// rfvStudentFirstname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentFirstname;
+        
+        /// <summary>
         /// txtStudentFirstname control.
         /// </summary>
         /// <remarks>
@@ -74,6 +83,15 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblStudentLastname;
+        
+        /// <summary>
+        /// rfvStudentLastname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentLastname;
         
         /// <summary>
         /// txtStudentLastname control.
@@ -112,6 +130,24 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblStudentNumber;
         
         /// <summary>
+        /// rfvStudentNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentNumber;
+        
+        /// <summary>
+        /// revStudentNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revStudentNumber;
+        
+        /// <summary>
         /// txtStudentNumber control.
         /// </summary>
         /// <remarks>
@@ -128,6 +164,24 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblStudentNationalCode;
+        
+        /// <summary>
+        /// rfvStudentNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentNationalCode;
+        
+        /// <summary>
+        /// revStudentNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revStudentNationalCode;
         
         /// <summary>
         /// txtStudentNationalCode control.
@@ -274,6 +328,15 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblStudentMobile;
         
         /// <summary>
+        /// rfvStudentMobile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentMobile;
+        
+        /// <summary>
         /// txtStudentMobile control.
         /// </summary>
         /// <remarks>
@@ -290,6 +353,15 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblStudentUsername;
+        
+        /// <summary>
+        /// rfvStudentUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentUsername;
         
         /// <summary>
         /// txtStudentUsername control.
@@ -310,6 +382,24 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblStudentPassword;
         
         /// <summary>
+        /// rfvStudentPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentPassword;
+        
+        /// <summary>
+        /// revStudentPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revStudentPassword;
+        
+        /// <summary>
         /// txtStudentPassword control.
         /// </summary>
         /// <remarks>
@@ -326,6 +416,24 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblStudentConfirmPassword;
+        
+        /// <summary>
+        /// rfvStudentConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvStudentConfirmPassword;
+        
+        /// <summary>
+        /// cvlStudentConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvlStudentConfirmPassword;
         
         /// <summary>
         /// txtStudentConfirmPassword control.
@@ -362,6 +470,15 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblStudentEmail;
+        
+        /// <summary>
+        /// revStudentEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revStudentEmail;
         
         /// <summary>
         /// txtStudentEmail control.
@@ -544,6 +661,15 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblTeacherFirstname;
         
         /// <summary>
+        /// rfvTeacherFirstname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherFirstname;
+        
+        /// <summary>
         /// txtTeacherFirstname control.
         /// </summary>
         /// <remarks>
@@ -560,6 +686,15 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTeacherLastname;
+        
+        /// <summary>
+        /// rfvTeacherLastname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherLastname;
         
         /// <summary>
         /// txtTeacherLastname control.
@@ -598,6 +733,24 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblTeacherNumber;
         
         /// <summary>
+        /// rfvTeacherNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherNumber;
+        
+        /// <summary>
+        /// revTeacherNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revTeacherNumber;
+        
+        /// <summary>
         /// txtTeacherNumber control.
         /// </summary>
         /// <remarks>
@@ -614,6 +767,24 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTeacherNationalCode;
+        
+        /// <summary>
+        /// rfvTeacherNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherNationalCode;
+        
+        /// <summary>
+        /// revTeacherNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revTeacherNationalCode;
         
         /// <summary>
         /// txtTeacherNationalCode control.
@@ -688,6 +859,24 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblTeacherEmail;
         
         /// <summary>
+        /// rfvTeacherEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherEmail;
+        
+        /// <summary>
+        /// revTeacherEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revTeacherEmail;
+        
+        /// <summary>
         /// txtTeacherEmail control.
         /// </summary>
         /// <remarks>
@@ -742,6 +931,15 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblTeacherTelephone;
         
         /// <summary>
+        /// rfvTeacherTelephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherTelephone;
+        
+        /// <summary>
         /// txtTeacherTelephone control.
         /// </summary>
         /// <remarks>
@@ -758,6 +956,15 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTeacherMobile;
+        
+        /// <summary>
+        /// rfvTeacherMobile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherMobile;
         
         /// <summary>
         /// txtTeacherMobile control.
@@ -778,6 +985,15 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblTeacherUsername;
         
         /// <summary>
+        /// rfvTeacherUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherUsername;
+        
+        /// <summary>
         /// txtTeacherUsername control.
         /// </summary>
         /// <remarks>
@@ -794,6 +1010,24 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTeacherPassword;
+        
+        /// <summary>
+        /// rfvTeacherPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherPassword;
+        
+        /// <summary>
+        /// revTeacherConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revTeacherConfirmPassword;
         
         /// <summary>
         /// txtTeacherPassword control.
@@ -814,6 +1048,24 @@ namespace TISS.Pages {
         protected global::System.Web.UI.WebControls.Label lblTeacherConfirmPassword;
         
         /// <summary>
+        /// rfvTeacherConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvTeacherConfirmPassword;
+        
+        /// <summary>
+        /// cvlTeacherConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvlTeacherConfirmPassword;
+        
+        /// <summary>
         /// txtTeacherConfirmPassword control.
         /// </summary>
         /// <remarks>
@@ -830,5 +1082,410 @@ namespace TISS.Pages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnTeacherRegister;
+        
+        /// <summary>
+        /// pnlOperatorSignUp control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlOperatorSignUp;
+        
+        /// <summary>
+        /// lblOperatorFirstname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorFirstname;
+        
+        /// <summary>
+        /// rfvOperatorFirstname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorFirstname;
+        
+        /// <summary>
+        /// txtOperatorFirstname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorFirstname;
+        
+        /// <summary>
+        /// lblOperatorLastname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorLastname;
+        
+        /// <summary>
+        /// rfvOperatorLastname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorLastname;
+        
+        /// <summary>
+        /// txtOperatorLastname control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorLastname;
+        
+        /// <summary>
+        /// lblOperatorGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorGender;
+        
+        /// <summary>
+        /// ddlOperatorGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlOperatorGender;
+        
+        /// <summary>
+        /// lblOperatorNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorNumber;
+        
+        /// <summary>
+        /// rfvOperatorNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorNumber;
+        
+        /// <summary>
+        /// revOperatorNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revOperatorNumber;
+        
+        /// <summary>
+        /// txtOperatorNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorNumber;
+        
+        /// <summary>
+        /// lblOperatorNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorNationalCode;
+        
+        /// <summary>
+        /// rfvOperatorNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorNationalCode;
+        
+        /// <summary>
+        /// revOperatorNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revOperatorNationalCode;
+        
+        /// <summary>
+        /// txtOperatorNationalCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorNationalCode;
+        
+        /// <summary>
+        /// lblOperatorFaculty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorFaculty;
+        
+        /// <summary>
+        /// ddlOperatorFaculty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlOperatorFaculty;
+        
+        /// <summary>
+        /// lblOperatorField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorField;
+        
+        /// <summary>
+        /// ddlOperatorField control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlOperatorField;
+        
+        /// <summary>
+        /// lblOperatorSubfield control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorSubfield;
+        
+        /// <summary>
+        /// ddlOperatorSubfield control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlOperatorSubfield;
+        
+        /// <summary>
+        /// lblOperatorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorEmail;
+        
+        /// <summary>
+        /// rfvOperatorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorEmail;
+        
+        /// <summary>
+        /// revOperatorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revOperatorEmail;
+        
+        /// <summary>
+        /// txtOperatorEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorEmail;
+        
+        /// <summary>
+        /// lblOperatorTelephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorTelephone;
+        
+        /// <summary>
+        /// rfvOperatorTelephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorTelephone;
+        
+        /// <summary>
+        /// txtOperatorTelephone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorTelephone;
+        
+        /// <summary>
+        /// lblOperatorMobile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorMobile;
+        
+        /// <summary>
+        /// rfvOperatorMobile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorMobile;
+        
+        /// <summary>
+        /// txtOperatorMobile control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorMobile;
+        
+        /// <summary>
+        /// lblOperatorUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorUsername;
+        
+        /// <summary>
+        /// rfvOperatorUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorUsername;
+        
+        /// <summary>
+        /// txtOperatorUsername control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorUsername;
+        
+        /// <summary>
+        /// lblOperatorPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorPassword;
+        
+        /// <summary>
+        /// rfvOperatorPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorPassword;
+        
+        /// <summary>
+        /// revOperatorPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator revOperatorPassword;
+        
+        /// <summary>
+        /// txtOperatorPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorPassword;
+        
+        /// <summary>
+        /// lblOperatorConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOperatorConfirmPassword;
+        
+        /// <summary>
+        /// rfvOperatorConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvOperatorConfirmPassword;
+        
+        /// <summary>
+        /// cvlOperatorConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator cvlOperatorConfirmPassword;
+        
+        /// <summary>
+        /// txtOperatorConfirmPassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOperatorConfirmPassword;
+        
+        /// <summary>
+        /// btnOperatorRegister control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnOperatorRegister;
     }
 }
